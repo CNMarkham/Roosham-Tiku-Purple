@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6426412396240913360
+--- !u!1001 &8698045869886867106
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -50,6 +50,18 @@ PrefabInstance:
     - target: {fileID: 2157776140647596847, guid: 622321fd286bb2545b3023ddff73179b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996946101479641267, guid: 622321fd286bb2545b3023ddff73179b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996946101479641267, guid: 622321fd286bb2545b3023ddff73179b, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996946101479641267, guid: 622321fd286bb2545b3023ddff73179b, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7724058134217645470, guid: 622321fd286bb2545b3023ddff73179b, type: 3}
       propertyPath: m_Name
