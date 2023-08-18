@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 529318946598524269, guid: b8919f1ef54398d4388a55660628c156, type: 3}
+      propertyPath: initialDirection.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 529318946598524269, guid: b8919f1ef54398d4388a55660628c156, type: 3}
+      propertyPath: initialDirection.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1406520912658520892, guid: b8919f1ef54398d4388a55660628c156, type: 3}
       propertyPath: m_Name
       value: Ghost_Pinky
@@ -29,15 +37,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7297062118593136013, guid: b8919f1ef54398d4388a55660628c156, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.6418543
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7297062118593136013, guid: b8919f1ef54398d4388a55660628c156, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.33268353
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7297062118593136013, guid: b8919f1ef54398d4388a55660628c156, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.016348476
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7297062118593136013, guid: b8919f1ef54398d4388a55660628c156, type: 3}
       propertyPath: m_LocalRotation.w

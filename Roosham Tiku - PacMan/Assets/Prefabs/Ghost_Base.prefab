@@ -410,7 +410,7 @@ GameObject:
   - component: {fileID: 2157776140647596847}
   - component: {fileID: 5882279571383703325}
   - component: {fileID: 5985526467537971626}
-  - component: {fileID: 2524237218253954419}
+  - component: {fileID: 9218075025272902607}
   m_Layer: 7
   m_Name: Ghost_Base
   m_TagString: Ghost
@@ -474,7 +474,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2524237218253954419
+--- !u!114 &9218075025272902607
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -486,3 +486,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2489af605e27f814397522c6523556c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 8
+  initialDirection: {x: 0, y: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  body: {fileID: 5359182435544000110}
+  eyes: {fileID: 5348618072004997168}
+  blue: {fileID: 6205959567724837670}
+  white: {fileID: 6902540936596823455}
+  atHome: 0
+  homeDuration: 0
