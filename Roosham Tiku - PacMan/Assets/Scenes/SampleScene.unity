@@ -205,6 +205,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5469632671988882101, guid: 959d1f29a3b68434c905da2d102289a5, type: 3}
+      propertyPath: homeDuration
+      value: 24
+      objectReference: {fileID: 0}
     - target: {fileID: 6860242796545856740, guid: 959d1f29a3b68434c905da2d102289a5, type: 3}
       propertyPath: m_Name
       value: Ghost_Clyde
@@ -422,6 +426,10 @@ PrefabInstance:
     - target: {fileID: 123910097133214605, guid: d24dfc5863597524181be0d47aa15087, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180123197019392877, guid: d24dfc5863597524181be0d47aa15087, type: 3}
+      propertyPath: homeDuration
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8608806159029814588, guid: d24dfc5863597524181be0d47aa15087, type: 3}
       propertyPath: m_Name
@@ -9323,7 +9331,7 @@ TilemapRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1784947619}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10205,6 +10213,10 @@ PrefabInstance:
     - target: {fileID: 7960750981042243461, guid: 70760cc57face984a800701bb1bc4461, type: 3}
       propertyPath: m_Name
       value: Ghost_Inky
+      objectReference: {fileID: 0}
+    - target: {fileID: 8837812068969433556, guid: 70760cc57face984a800701bb1bc4461, type: 3}
+      propertyPath: homeDuration
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70760cc57face984a800701bb1bc4461, type: 3}
