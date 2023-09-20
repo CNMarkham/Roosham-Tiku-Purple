@@ -8545,6 +8545,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56ddb5c94a49e0e47b8c94e50acb0f90, type: 3}
+--- !u!1 &1143493575 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4835181803557101436, guid: 56ddb5c94a49e0e47b8c94e50acb0f90, type: 3}
+  m_PrefabInstance: {fileID: 1143493574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1143493576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143493575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52416e24b499d3e4f85e56bfb9a6e2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2000
+  jumpForce: 9
+  jumping: 0
 --- !u!1001 &1151250047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9792,7 +9812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3625676974389889696, guid: 6449b3e808f66a341a7d476e16927c22, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3625676974389889696, guid: 6449b3e808f66a341a7d476e16927c22, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
