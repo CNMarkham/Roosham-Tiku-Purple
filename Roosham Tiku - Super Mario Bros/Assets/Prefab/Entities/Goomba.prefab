@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1427731016216997016}
   - component: {fileID: 1877928125191314704}
   - component: {fileID: 5275022302145218452}
+  - component: {fileID: 7980569623389046942}
   m_Layer: 8
   m_Name: Goomba
   m_TagString: Untagged
@@ -144,3 +145,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7980569623389046942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617999614577174105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f725774e3e858ab408e87ffcae283bba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  direction: {x: -1, y: 0}

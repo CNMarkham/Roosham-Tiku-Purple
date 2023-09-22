@@ -26,6 +26,9 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(Vector2.right * horizontal * moveSpeed * Time.deltaTime);
 
         Jump();
+        ResetJumping();
+        FlipDirection();
+        ChangeAnimations();
     }
 
     private void Jump()
@@ -57,6 +60,16 @@ public class PlayerMovement : MonoBehaviour
         foreach (SpriteRenderer sprite in GetComponentsInChildren<SpriteRenderer>())
         {
             sprite.flipX = rb.velocity.x < 0;
+        }
+    }
+
+    private void ChangeAnimations()
+    {
+        foreach (Animator animator in GetComponentsInChildren<Animator>())
+        {
+            animator.SetFloat("velocityX", rb.velocity.x);
+            animator.SetFloat("horizontalInput", Input.GetAxis("Horizontal"));
+            animator.SetBool("inAir", hit.collider == null || jumping);
         }
     }
 }
