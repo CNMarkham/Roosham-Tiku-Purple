@@ -15,6 +15,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void OnBecameVisible()
     {
+        Debug.Log("Test");
         rb.velocity = direction * speed;
     }
 
