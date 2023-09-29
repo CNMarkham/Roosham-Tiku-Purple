@@ -4457,7 +4457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.18, y: 6.5, z: -10}
+  m_LocalPosition: {x: 16, y: 7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10194,6 +10194,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6414507113134863382, guid: 56ddb5c94a49e0e47b8c94e50acb0f90, type: 3}
+      propertyPath: big
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6414507113134863382, guid: 56ddb5c94a49e0e47b8c94e50acb0f90, type: 3}
+      propertyPath: bigRenderer
+      value: 
+      objectReference: {fileID: 1607536593}
+    - target: {fileID: -6414507113134863382, guid: 56ddb5c94a49e0e47b8c94e50acb0f90, type: 3}
+      propertyPath: smallRenderer
+      value: 
+      objectReference: {fileID: 1931090090}
     - target: {fileID: 4835181803557101436, guid: 56ddb5c94a49e0e47b8c94e50acb0f90, type: 3}
       propertyPath: m_Name
       value: Mario
@@ -13984,6 +13996,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2839081686918406901, guid: a0398279a50fbc34fa3727c3343c2661, type: 3}
   m_PrefabInstance: {fileID: 1591845417}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1607536593 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3761686286762366766, guid: 56ddb5c94a49e0e47b8c94e50acb0f90, type: 3}
+  m_PrefabInstance: {fileID: 1143493574}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1625721615
 GameObject:
   m_ObjectHideFlags: 0
@@ -16700,6 +16717,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!212 &1931090090 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5156455178207457384, guid: 56ddb5c94a49e0e47b8c94e50acb0f90, type: 3}
+  m_PrefabInstance: {fileID: 1143493574}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1939516106
 GameObject:
   m_ObjectHideFlags: 0
