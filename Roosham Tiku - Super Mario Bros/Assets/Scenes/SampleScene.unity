@@ -16078,6 +16078,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1098226641}
     m_Modifications:
+    - target: {fileID: -8337549257054311463, guid: c08190f5bca3c8a43be93a5450802e0b, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 6937003784152795816, guid: 1e687e04d0fdd984a958b525415a309a, type: 3}
     - target: {fileID: 3897562644930980287, guid: c08190f5bca3c8a43be93a5450802e0b, type: 3}
       propertyPath: m_Name
       value: MysteryBlock (1)

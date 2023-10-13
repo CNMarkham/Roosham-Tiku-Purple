@@ -14,7 +14,7 @@ public class BlockHit : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
     }
 
-    public void hit()
+    public void Hit()
     {
         if (maxHits <= 0)
         {
@@ -23,12 +23,15 @@ public class BlockHit : MonoBehaviour
         if (item != null)
         {
             Instantiate(item, transform);
+            animator.SetTrigger("hit");
+            maxHits--;
         }
-        animator.SetTrigger("Hit");
-        maxHits--;
+
         if (maxHits == 0)
         {
-
+            SpriteRenderer spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+            spriteRenderer.sprite = emptyBlock;
         }
     }
 }
+
