@@ -83,6 +83,7 @@ public class PlayerMovement : MonoBehaviour
         }
         RaycastHit2D hitTop = Physics2D.CircleCast(rb.position, 0.25f, Vector2.up, distance, LayerMask.GetMask("Default"));
 
+        
         if (hitTop.collider != null)
         {
             Vector3 velocity = rb.velocity;
