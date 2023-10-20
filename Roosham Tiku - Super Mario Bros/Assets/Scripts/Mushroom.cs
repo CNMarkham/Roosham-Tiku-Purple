@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class Mushroom : MonoBehaviour
 {
-    private Animator animator;
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        animator.SetTrigger("transform");
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<PlayerBehaviour>().Grow();
+            Destroy(gameObject);
+        }
     }
 }
