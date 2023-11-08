@@ -47,7 +47,7 @@ public class Tetromino : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            transform.Translate(Vector3.left);
+            transform.Translate(Vector3.left, Space.World);
             if (!ValidMove())
             {
                 transform.Translate(Vector3.right, Space.World);
@@ -56,7 +56,7 @@ public class Tetromino : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            transform.Translate(Vector3.right);
+            transform.Translate(Vector3.right, Space.World);
             if (!ValidMove())
             {
                 transform.Translate(Vector3.left, Space.World);
@@ -77,6 +77,8 @@ public class Tetromino : MonoBehaviour
             if (!ValidMove())
             {
                 transform.Translate(Vector3.up, Space.World);
+                this.enabled = false;
+                FindObjectOfType<Spawner>().SpawnTetromino();
             }
         }
 
